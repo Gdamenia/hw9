@@ -1,0 +1,60 @@
+@media screen and (width > 1400px) {
+
+    .container{
+    width: 1440px;
+    padding: 80px 165px;
+    position: relative;
+}
+
+.images{
+    width: 64px;
+    height: 64px;
+}
+.texts{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50% , 0);
+    top: 80px;
+}
+
+
+.box1 , .box2 , .box3 , .box4{
+    width: 350px;
+    height: 250px;
+    position: absolute;
+}
+
+h1{
+    letter-spacing: 0.25px;
+    font-size: 36px;
+}
+h2{
+    letter-spacing: 0.25px;
+    font-size: 36px;
+}
+
+h5{
+    width: 540px;
+}
+
+.box4{
+    right: 110px;
+    bottom: 640px;
+}
+
+.box2{
+    right: 494px;
+    top: 312px;
+}
+
+.box3{
+    right: 494px;
+    top: 615px;
+}
+
+.box1{
+    left:110px;
+    bottom: 640px;
+}
+
+}
